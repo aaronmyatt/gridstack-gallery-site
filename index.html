@@ -8,15 +8,43 @@
     <title>Gridstack Gallery</title>
   </head>
   <body>
-    <section class="">
+    <section class="app">
       <div class="mx-auto max-w-screen-xl">
         <div class="grid-stack"></div>
       </div>
     </section>
-    <template id="title"> <h1>Grid Stack Gallery</h1> </template>
-    <template id="example"> <div>Example Gallery</div></template>
+    <template id="title">
+      <div class="font-bold flex items-center justify-center h-full">
+        <h1>Grid Stack Gallery</h1>
+      </div>
+    </template>
+    <template id="example">
+      <div>
+        <h2>Example Gallery</h2>
+        <div class="grid-stack gsg"></div>
+      </div>
+    </template>
     <template id="about"><div>but... why?</div></template>
     <template id="contact"> <div>Get in touch</div></template>
+    <script type="application/json" id="gsg-images">
+      [
+        "https://placebear.com/600/600",
+        "https://placebear.com/601/600",
+        "https://placebear.com/602/600",
+        "https://placebear.com/603/600",
+        "https://placebear.com/604/600",
+        "https://placebear.com/605/600",
+        "https://placebear.com/606/600",
+        "https://placebear.com/607/600",
+        "https://placebear.com/608/600",
+        "https://placebear.com/609/600",
+        "https://placebear.com/610/600",
+        "https://placebear.com/611/600",
+        "https://placebear.com/612/600",
+        "https://placebear.com/613/600",
+        "https://placebear.com/614/600"
+      ]
+    </script>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
