@@ -6,18 +6,11 @@ import GridStackGallery from 'gridstack-gallery';
 const grid = GridStack.init({ disableOneColumnMode: true });
 
 const waitForSelector = setInterval(function () {
-  console.log(document.querySelectorAll('.app .gsg').length);
   if (document.querySelectorAll('.app .gsg').length) {
-    // GridStackGallery();
+    GridStackGallery();
     clearInterval(waitForSelector);
   }
 }, 100);
-
-declare global {
-  interface Window {
-    gsg: object;
-  }
-}
 
 grid.batchUpdate();
 
