@@ -1,5 +1,6 @@
 import './style.css';
 import 'gridstack/dist/gridstack.min.css';
+import 'gridstack-gallery/dist/style.css';
 import { GridStack } from 'gridstack';
 import GridStackGallery from 'gridstack-gallery';
 import { socialGrid, socialGridMobile } from './socialGrid';
